@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link'
+import 'tailwindcss/tailwind.css';
 
 export default function Home({ allPostsData }) {
   return (
@@ -11,7 +12,7 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <main>
-<h1>Thibaut website</h1>
+<h1 className='bg-pink-400'>Thibaut website</h1>
 
 <ul>
 {allPostsData.map(({ id, date, title }) => (
