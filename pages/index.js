@@ -7,33 +7,33 @@ import 'tailwindcss/tailwind.css';
 export default function Home({ allPostsData }) {
   return (
     <Layout>
-      <h1 className='bg-pink-400'>Thibaut website</h1>
 
       {/* <ul>
         {allPostsData.map(({ id, date, title }) => (
           <Link  key={id} href={`/posts/${id}`}>
 
-              <li key={id}>
-                        {title}  -  {id} - {date}
-              </li>
+          <li key={id}>
+          {title}  -  {id} - {date}
+          </li>
 
-            </Link>
-                  ))
+          </Link>
+          ))
         }
       </ul> */}
-      <div className="container mx-auto">
-        <div className="grid grid-cols-2 gap-4 bg-gray-200 my-4 p-4 w-full">
+      <div className="container mx-auto text-slate-700">
+        <h1 className='text-center text-2xl mt-7'>Thibaut website</h1>
+        <div className="grid grid-cols-2 gap-4 my-4 p-4 w-full">
 
         <Link href={`/about`}>
-          <div className="bg-green-100 p-4">Let me introduce myself...</div>
+          <div className="flex text-xl p-4 min-h-64 border-2 border-slate-700 rounded-lg items-center justify-center">Let me introduce myself...</div>
           </Link>
 
           <Link href={`/projects`}>
-            <div className="bg-green-100 p-4">See Posts</div>
+            <div className="flex text-xl p-4 min-h-64 border-2 border-slate-700 rounded-lg items-center justify-center">See Posts</div>
           </Link>
 
-          <div className="bg-green-100 p-4">1</div>
-          <div className="bg-green-100 p-4">1</div>
+          <div className="flex text-xl p-4 min-h-64 border-2 border-slate-700 rounded-lg items-center justify-center">1</div>
+          <div className="flex text-xl p-4 min-h-64 border-2 border-slate-700 rounded-lg items-center justify-center">1</div>
         </div>
       </div>
     </Layout>
