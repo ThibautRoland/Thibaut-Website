@@ -17,7 +17,7 @@ export const Layout = ({children}) => {
 
     <Header/>
 
-    <div className='text-slate-800 m-4'>
+    <div className='m-4 text-slate-750'>
     {children}
     </div>
   </div>
