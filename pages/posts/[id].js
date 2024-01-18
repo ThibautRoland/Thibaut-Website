@@ -4,7 +4,7 @@ import {Layout} from '../../components/Layout'
 export default function Post({postData}) {
   return (
     <Layout>
-      <div className="container">
+      <div className="">
             <div>{postData.label}</div>
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </div>

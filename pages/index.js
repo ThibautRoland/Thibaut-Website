@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
           ))
         }
       </ul> */}
-      <div className="container mx-auto text-slate-700">
+      <div className="mx-auto ">
         <h1 className='text-center text-2xl mt-7'>Thibaut website</h1>
         <div className="grid grid-cols-2 gap-4 my-4 p-4 w-full">
 

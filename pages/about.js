@@ -28,7 +28,7 @@ export default function About({ allPostsData }) {
       <Head>
         <title>About Me</title>
       </Head>
-      <div className='container text-slate-700'>
+      <div className=''>
         <h1 className="text-3xl font-bold mb-4 text-center mt-7">A little bit about me...</h1>
 {/*
         <div className="flex flex-col">
