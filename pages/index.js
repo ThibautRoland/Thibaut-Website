@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
       </ul> */}
       <div className="mx-auto ">
         <h1 className='text-center text-2xl mt-7'>Thibaut website</h1>
-        <div className="grid grid-cols-2 gap-4 my-4 p-4 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4 p-4 w-full">
 
         <Link href={`/about`}>
           <div className="flex text-xl p-4 min-h-64 border-slate-700 rounded-lg items-center justify-center shadow-lg hover:shadow-xl transition duration-300">Let me introduce myself...</div>
@@ -31,9 +31,6 @@ export default function Home({ allPostsData }) {
           <Link href={`/projects`}>
             <div className="flex text-xl p-4 min-h-64 border-slate-700 rounded-lg items-center justify-center shadow-lg hover:shadow-xl transition duration-300">See Posts</div>
           </Link>
-
-          <div className="flex text-xl p-4 min-h-64 border-slate-700 rounded-lg items-center justify-center shadow-lg hover:shadow-xl transition duration-300">1</div>
-          <div className="flex text-xl p-4 min-h-64 border-slate-700 rounded-lg items-center justify-center shadow-lg hover:shadow-xl transition duration-300">1</div>
         </div>
       </div>
     </Layout>

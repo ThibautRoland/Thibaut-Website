@@ -6,7 +6,7 @@
       <p>0777360388</p>
       <p>thibaut.roland2@gmail.com</p>
     </div>
-    <div className="basis-1/3 text-center font-bold">web dev</div>
+    <div className="basis-1/3 text-center font-bold hidden md:inline">web dev</div>
     <div className="basis-1/3 flex">
       <div className='flex-grow'></div>
       <img className="w-16 rounded-full" src="/Portraits_LeWagon_centre_carre.jpg"/>
