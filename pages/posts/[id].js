@@ -1,11 +1,15 @@
 import { getAllPostIds, getPostData } from '../../lib/posts';
+import {Layout} from '../../components/Layout'
 
 export default function Post({postData}) {
-  return <div>
-        <div>{postData.label}</div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-  </div>
-  ;
+  return (
+    <Layout>
+      <div className="container">
+            <div>{postData.label}</div>
+            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      </div>
+    </Layout>
+  );
 }
 
 export async function getStaticPaths() {
