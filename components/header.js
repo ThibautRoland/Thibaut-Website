@@ -7,8 +7,8 @@
       <p>thibaut.roland2@gmail.com</p>
     </div>
     <div className="basis-1/3 text-center font-bold">web dev</div>
-    <div className="basis-1/3 flex justify-items-end">
-      <img className="h-12 object-contain w-16" src="/home/thibautrld/code/work_with_mat/Thibaut-Website/images/portrait_centré.jpg"/>
+    <div className="basis-1/3  bg-yellow-300">
+      <img className="w-16 rounded-full" src="/Portraits_LeWagon_centre_carre.jpg"/>
     </div>
   </div>
 }
