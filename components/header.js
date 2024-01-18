@@ -7,7 +7,9 @@
       <p>thibaut.roland2@gmail.com</p>
     </div>
     <div className="basis-1/3 text-center font-bold">web dev</div>
-    <img className="basis-1/3 h-12 object-contain" src='https://www.meme-arsenal.com/memes/5dad8397f3ba2346909d49526e1a3417.jpg'/>
+    <div className="basis-1/3 flex justify-items-end">
+      <img className="h-12 object-contain w-16" src="/home/thibautrld/code/work_with_mat/Thibaut-Website/images/portrait_centré.jpg"/>
+    </div>
   </div>
 }
 
