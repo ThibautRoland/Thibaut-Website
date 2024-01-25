@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4 p-4 w-full">
 
         <Link href={`/about`}>
-          <div className="flex text-xl p-4 min-h-64 border-slate-700 rounded-lg items-center justify-center shadow-lg hover:shadow-xl transition duration-300">Let me introduce myself...</div>
+          <div className="bg-blue-300 text-white text-2xl font-bold flex text-xl p-4 min-h-64 border-slate-700 rounded-lg items-center justify-center shadow-lg hover:shadow-xl transition duration-300">Let me introduce myself...</div>
           </Link>
 
           <Link href={`/projects`}>
